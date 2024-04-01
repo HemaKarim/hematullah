@@ -51,21 +51,18 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a highly motivated individual with a Bachelor of Engineering in
-        Mechanical Engineering with a Mechatronics stream from Toronto
-        Metropolitan University (formerly Ryerson University). Driven by a deep
-        passion for both the mechanical and software engineering fields, I
-        possess a versatile skill set that spans across various programming
-        languages, including Python, C, C#, C++, HTML5/CSS3, and JavaScript.
-        Additionally, I am proficient in frameworks such as React, Angular,
-        Django and Flask, alongside expertise in CAD software like AutoCAD and
-        SolidWorks. With a strong foundation in both domains, I excel in
-        crafting innovative solutions that seamlessly integrate hardware and
-        software components. My analytical mindset, coupled with strong
-        problem-solving abilities, enables me to navigate complex challenges
-        with ease. I am committed to leveraging my education and skills to drive
-        impactful advancements in both mechanical and software engineering
-        realms.
+        Currently pursuing a Master of Science in Computer Science at the
+        Georgia Institute of Technology. I am a highly motivated individual with
+        a Bachelor of Engineering in Mechanical Engineering, specializing in
+        Mechatronics, from Toronto Metropolitan University (formerly Ryerson
+        University). My passion for both mechanical and software engineering
+        drives my versatile skill set, encompassing Python, C, C#, C++,
+        HTML5/CSS3, and JavaScript. I am proficient in frameworks like React,
+        Angular, Django, and Flask, with expertise in CAD software such as
+        AutoCAD and SolidWorks. Excelling in integrating hardware and software
+        to devise innovative solutions, my keen analytical mindset and robust
+        problem-solving abilities contribute to impactful advancements in both
+        mechanical and software engineering domains.
       </motion.p>
 
       <h2 className={styles.sectionHeadText}>Education.</h2>

@@ -42,9 +42,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import tmu from "./tmu.png"
-import school from "./school.png"
-import diploma from "./diploma.png"
+import tmu from "./tmu.png";
+import school from "./school.png";
+import diploma from "./diploma.png";
+
+import gtech from "./GeorgiaTech_RGB.png";
+import tmulogo from "./TMULOGO.png";
 
 export {
   logo,
@@ -89,4 +92,6 @@ export {
   sw,
   matlab,
   zenik,
+  tmulogo,
+  gtech,
 };

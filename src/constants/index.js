@@ -37,6 +37,8 @@ import {
   sw,
   matlab,
   zenik,
+  tmulogo,
+  gtech,
 } from "../assets";
 
 export const navLinks = [
@@ -56,16 +58,25 @@ export const navLinks = [
 
 const services = [
   {
-    title: "School",
-    description: "Toronto Metropolitan University",
-    icon: school,
+    title: "Postgraduate School",
+    description: "Georgia Institute of Technology",
+    icon: gtech,
   },
   {
-    title: "Degree",
-    description:"Bachelor of Engineering (BEng): Mechanical Engineering",
+    title: "Postgraduate Degree",
+    description: "Master of Science (MS): Computer Science",
     icon: diploma,
   },
-
+  {
+    title: "Undergraduate School",
+    description: "Toronto Metropolitan University",
+    icon: tmulogo,
+  },
+  {
+    title: "Undergraduate Degree",
+    description: "Bachelor of Engineering (BEng): Mechanical Engineering",
+    icon: diploma,
+  },
 ];
 
 const technologies = [
@@ -100,7 +111,7 @@ const technologies = [
   {
     name: "Flask",
     icon: flask,
-  },  
+  },
   {
     name: "Django",
     icon: django,
@@ -125,7 +136,6 @@ const technologies = [
     name: "AutoCAD",
     icon: autocad,
   },
-  
 ];
 
 const experiences = [
@@ -160,9 +170,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "January 2021 - August 2021",
     points: [
-      "Spearheaded the development of a captivating Unity web game using C# scripts and seamlessly integrated it into an Angular website, demonstrating proficiency in both game development and web integration.",
-      "Collaborated with back-end developers to optimize application performance by integrating RESTful APIs, while also enhancing user experience through meticulous design and construction of a user interface using JavaScript and React.",
-      "Leveraged expertise in front-end development to prioritize user flow and experience, ensuring intuitive navigation and seamless interactions for platform users.",
+      "Developed a Unity WebGL game and seamlessly integrated it into the Angular front-end using C#, resulting in a 40% increase in product subscribers.",
+      "Collaborated with back-end developers to integrate RESTful APIs and optimize application performance,while concurrently developing ASP.NET Core Web API endpoints, which resulted in a 250% boost in player retention. ",
+      "Applied front-end development expertise to optimize user flow and experience, ensuring intuitive navigation and seamless interactions. Designed and constructed a user interface with JavaScript and React, enhancing overall user experience.",
     ],
   },
 ];
@@ -214,7 +224,8 @@ const projects = [
       },
     ],
     image: zenik,
-    source_code_link: "https://www.youtube.com/watch?v=UhkaY5nPS7Y&ab_channel=TechZenikRoboticsandInformationSystems",
+    source_code_link:
+      "https://www.youtube.com/watch?v=UhkaY5nPS7Y&ab_channel=TechZenikRoboticsandInformationSystems",
   },
 ];
 
