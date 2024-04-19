@@ -39,6 +39,7 @@ import {
   zenik,
   tmulogo,
   gtech,
+  chatapp,
 } from "../assets";
 
 export const navLinks = [
@@ -226,6 +227,27 @@ const projects = [
     image: zenik,
     source_code_link:
       "https://www.youtube.com/watch?v=UhkaY5nPS7Y&ab_channel=TechZenikRoboticsandInformationSystems",
+  },
+  {
+    name: "Chat App",
+    description:
+      "A Facebook chat like app that allows real time conversations with friends across the globe",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatapp,
+    source_code_link: "https://github.com/HemaKarim/Chat-App-Draft",
   },
 ];
 

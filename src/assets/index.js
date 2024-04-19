@@ -49,6 +49,8 @@ import diploma from "./diploma.png";
 import gtech from "./GeorgiaTech_RGB.png";
 import tmulogo from "./TMULOGO.png";
 
+import chatapp from "./chats.png";
+
 export {
   logo,
   backend,
@@ -94,4 +96,5 @@ export {
   zenik,
   tmulogo,
   gtech,
+  chatapp,
 };
