@@ -33,7 +33,7 @@ const Hero = () => {
           <br />
           <div style={{ display: "flex", alignItems: "center" }}>
             <a
-              href="https://raw.githubusercontent.com/HemaKarim/Resume/main/Hematullah_Karimzada_Resume.pdf"
+              href="https://raw.githubusercontent.com/HemaKarim/Resume/main/Hematullah_Karimzada_Software_Resume.pdf"
               download="Hematullah_Karimzada_Resume_2024.pdf"
               style={{
                 backgroundColor: "white",
